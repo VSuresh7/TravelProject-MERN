@@ -1,0 +1,52 @@
+.header {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    background-color: rgb(175, 230, 210);
+
+}
+.logo img{
+    width: 70%;
+    height: 40%;
+    padding-left: 20%;
+    padding-top: 20%;
+}
+.menu {
+    margin-bottom:0;
+}
+.nav_item a{
+    text-decoration: none;
+    color: var(--heading-color);
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.nav_item a:hover{
+    color: inherit;
+}
+.nav_item a.active_link{
+    color: var(--secondary-color);
+}
+.mobile_menu{
+    font-size: 1.3rem;
+    color: var(--heading-color);
+    display: none;
+}
+.primary_btn{
+
+    background-color: black;
+    color: blanchedalmond;
+}
+.sticky_header{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    background: #fff;
+    position: sticky;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px 8px -3px #ddd;
+    z-index: 999;
+}
+.secondary_btn{
+    background-color: rgb(215, 157, 81);
+}
